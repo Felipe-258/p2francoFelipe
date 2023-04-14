@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp1</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <label for="surname">apellido:</label>
+            <input type="text" id="surname" name="user_surname" />
+          </li>
+          <li>
+            <label for="name">nombre:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="age">edad:</label>
+            <input type="text" id="age" name="user_age" />
+          </li>
+        </ul>      
+        <li class="button">
+            <button onclick="mifuncion()" type="submit">Enviar</button>
+          </li>
+      </form>
+      
+
+</body>
+</html>
+
+<script src="js\funciones.js"></script>
+
