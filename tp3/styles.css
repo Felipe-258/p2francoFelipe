@@ -1,0 +1,11 @@
+#map { height: 400px; }
+
+table, th, td {
+    padding: 15px;
+    text-align: center;
+  }
+  th {
+    background-color: #04AA6D;
+    color: white;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
