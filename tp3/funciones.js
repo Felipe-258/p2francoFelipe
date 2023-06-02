@@ -1,12 +1,5 @@
-var rick;
+//var rick;
 function getResults(){
-    
-        fetch('https://rickandmortyapi.com/api/character/')
-        .then(function(response){
-            return response.json()
-            
-            }
-        )
         
         const results = fetch('https://rickandmortyapi.com/api/character/'+(Math.floor(Math.random() * 826)))
         .then(function(response){
